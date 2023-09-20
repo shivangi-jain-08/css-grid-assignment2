@@ -1,0 +1,32 @@
+body{
+    padding: 0px 100px;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+
+}
+
+.grid{
+    height: 350px;
+    width: 400px;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/01/19/79/32/1000_F_119793226_bf8UwqROGEsjSgmV94FgqASuiHNmIrHj.jpg);
+    background-size:100% 100%;
+}
+
+.grid-10{
+    width: 1265px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: url(https://as1.ftcdn.net/v2/jpg/02/97/40/00/1000_F_297400017_sjSoRhxEIj1HP6Ii7DcIZU1A9lODF6rx.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
